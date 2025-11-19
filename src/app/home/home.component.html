@@ -1,0 +1,11 @@
+<p>home works!</p>
+<h1>{{title}}</h1>
+
+
+<!-- addition.component.html -->
+<div class="addition-container">
+    <input type="number" [(ngModel)]="num1" placeholder="Number 1">
+    <input type="number" [(ngModel)]="num2" placeholder="Number 2">
+    <button (click)="addNumbers()">Add</button>
+    <p>Result: {{ result }}</p>
+  </div>
